@@ -21,7 +21,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-with open('creds.json') as file:
+FOLDER = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(FOLDER, 'creds.json')
+with open(file_path, 'r') as file:
     creds = json.load(file)
 SECRET_KEY = creds['KEY']
 
