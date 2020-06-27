@@ -4,3 +4,4 @@ creds.json
 db.sqlite3
 /static
 __pycache__
+.env
