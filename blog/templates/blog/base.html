@@ -15,7 +15,9 @@
     <div class="page-header">
     {% if user.is_authenticated %}
         <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-    {% endif %}        <h1><a href="/">Will Russell</a></h1>
+    {% endif %}
+    <h1 id="title"><a href="/">Will Russell</a></h1>
+    <h3 id="tagline">Python Developer and Hackathon Coach</h3>
     </div>
     <div class="content container">
         <div class="row">
