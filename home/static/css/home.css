@@ -10,6 +10,7 @@
     color: #363636;
     font-size: 36pt;
     text-decoration: none;
+    padding-left: 7px;
 }
 
 .content {
@@ -33,6 +34,7 @@ p {
     font-size: 18px;
     margin: 0px 0px 10px 0px;
     color: #363636;
+    padding-left: 15px;
 }
 
 
