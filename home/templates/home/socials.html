@@ -1,4 +1,9 @@
-/base.html' %}]
-
 {% block content %}
+<hr>
+<ul>
+    <li><a href="https://github.com/{{ socials.github }}"><span><i class="fab fa-github"></i> {{ socials.github}}</span></a></li>
+    <li><a href="https://twitter.com/{{ socials.twitter }}"><span><i class="fab fa-twitter"></i> {{ socials.twitter}}</span></a></li>
+    <li><a href="https://linkedin.com/in/{{ socials.linkedin }}"><span><i class="fab fa-linkedin"></i> {{ socials.linkedin}}</span></a></li>
+    <li><a href="mailto:{{ socials.email }}"><span><i class="fas fa-envelope"></i> {{ socials.email}}</span></a></li>
+</ul>
 {% endblock %}

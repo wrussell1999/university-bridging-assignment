@@ -10,11 +10,11 @@ class Bio(models.Model):
     def __str__(self):
         return self.title
 
-class Socials(models.Model):
+class Social(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    github = models.TextField()
-    twitter = models.TextField()
-    linkedin = models.TextField()
+    github = models.CharField(max_length=39, default="octocat")
+    twitter = models.CharField(max_length=15, default="tweet")
+    linkedin = models.CharField(max_length=50, default="will")
     email = models.EmailField()
 
     def __str__(self):

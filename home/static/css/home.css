@@ -49,3 +49,17 @@ p {
     margin-right: 20px;
     font-weight: 800;
 }
+
+li {
+    font-family: 'Poppins', sans-serif;
+    color: #363636;
+    font-size: 18px;
+
+}
+a {
+    color: #4ec3cf;
+}
+
+a:hover {
+    color: #363636;
+}
