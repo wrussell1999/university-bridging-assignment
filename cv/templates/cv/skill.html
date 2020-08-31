@@ -1,0 +1,12 @@
+{% block content %}
+{% if skills %}
+<h1 class="section-title">Skills</h1>
+{% for skill in skills %}
+<div class="skills">
+    <h2> {{ skill.content }}</h2>
+    <p> Experience: {{ skill.years_experience }} years</p>
+    <hr>
+</div>
+{% endfor %}
+{% endif %}
+{% endblock %}

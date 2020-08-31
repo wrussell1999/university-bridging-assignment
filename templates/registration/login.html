@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Will Russell | Login</title>
+</head>
+
+{% block content %}
+<form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+    <input type="text" name="username" autofocus required id="id_username">
+    <input type="password" name="password" required id="id_password">
+    <input id="save" type="submit" value="login" />
+</form>
+{% endblock %}
+
+
+</html>

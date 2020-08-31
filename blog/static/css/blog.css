@@ -9,6 +9,7 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #363636;
     font-size: 36pt;
+    font-weight: 800;
     text-decoration: none;
     padding-left: 7px;
 }

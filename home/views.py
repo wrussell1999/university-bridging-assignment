@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Bio, Social
+from home.models import Bio, Social
 
 def home(request):
     return render(request, 'home/base.html')

@@ -1,0 +1,13 @@
+{% block content %}
+{% if experiences %}
+<h1 class="section-title">Experience</h1>
+{% for experience in experiences %}
+<div class="experience">
+    <h2> {{ experience.job_title }}</h2>
+    <h3> {{ experience.company }}</h3>
+    <p> {{ experience.start_date }} to {{ experience.finish_date }}</p>
+    <hr>
+</div>
+{% endfor %}
+{% endif %}
+{% endblock %}

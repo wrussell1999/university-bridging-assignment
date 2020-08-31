@@ -1,0 +1,13 @@
+{% block content %}
+{% if projects %}
+<h1 class="section-title">Projects</h1>
+{% for project in projects %}
+<div class="projects">
+    <h2> {{ project.title }}</h2>
+    <p> {{ project.content }}</p>
+    <hr>
+</div>
+{% endfor %}
+{% endif %}
+{% endblock %}
+

@@ -1,0 +1,13 @@
+{% block content %}
+{% if educations %}
+<h1 class="section-title">Education</h1>
+{% for education in educations %}
+<div class="education">
+    <h2> {{ education.institute }}</h2>
+    <h3> {{ education.course }}</h3>
+    <p> {{ education.start_date }} to {{ education.finish_date }}</p>
+    <hr>
+</div>
+{% endfor %}
+{% endif %}
+{% endblock %}

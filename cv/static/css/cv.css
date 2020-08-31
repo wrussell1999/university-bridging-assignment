@@ -9,6 +9,7 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #363636;
     font-size: 36pt;
+    font-weight: 800;
     text-decoration: none;
     padding-left: 7px;
 }
@@ -17,13 +18,77 @@
     margin-left: 40px;
 }
 
+.section-title {
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
 h1, h2, h3, h4 {
     font-weight: bolder;
 }
 
-.date, h1, h2, h3, h4, p {
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: 'Poppins';
 }
+
+.education h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.education h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.education p {
+    margin: 5px;
+    color: #363636;
+}
+
+.experience h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.experience h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.experience p {
+    margin: 5px;
+    color: #363636;
+}
+
+.skills h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.skills h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.skills p {
+    margin: 5px;
+}
+
+.projects h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.projects h3 {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.projects p {
+    margin: 5px;
+}
+
 
 #tagline {
     font-size: 18px;
